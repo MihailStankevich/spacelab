@@ -1,0 +1,56 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE / editor settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test/coverage/mypy
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage*
+htmlcov/
+
+# Logs
+logs/
+*.log
+
+# TensorFlow / Keras artifacts
+checkpoints/
+*.weights.h5
+*.h5
+*.hdf5
+*.keras
+*.tflite
+*.pb
+saved_model.pb
+**/variables/
+**/assets/
+**/keras_metadata.pb
+
+# Project-specific model outputs (keep these tracked)
+
+# Data shards (TFRecord datasets)
+train/
+test/
+train_balanced/
+test_balanced/
+
+# Images and large media (optional; comment out if you want to track)
+# *.jpg
+# *.png
+
+
